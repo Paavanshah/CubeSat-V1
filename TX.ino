@@ -14,6 +14,10 @@
   ---------------------------
 
   Arduino UNO/NANO
+
+  Buzzer 
+  Vcc     -> D6
+  Gnd     -> Gnd
   
   DHT11 
   Vcc     -> 5V
