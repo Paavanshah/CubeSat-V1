@@ -11,17 +11,45 @@
   IRQ   -> -
   VCC   -> 3.3V
   GND   -> GND
-
-
   ---------------------------
 
+  Arduino UNO/NANO
+  
+  DHT11 
+  Vcc     -> 5V
+  Gnd     -> Gnd
+  Out     -> D4
 
-  MPU6050   Arduino UNO/NANO
+  Gas Sensor
+  Vcc     -> 5V
+  Gnd     -> Gnd
+  Analog  -> A0
+
+  RGB led 
+  R        -? 9
+  G        -? 10
+  B        -? 3
+  Gnd      -> Gnd
+
+  BMP280 
+  Vcc      -> 5V
+  GND      -> GND
+  SDA      -> A4
+  SCL      -> A5
+
+  MPU6050   
  
-  Vcc    -> 5V
-  GND    -> GND
-  SDA    -> A4
-  SCL    -> A5
+  Vcc      -> 5V
+  GND      -> GND
+  SDA      -> A4
+  SCL      -> A5
+
+  HMC5883L
+
+  Vcc      -> 5V
+  GND      -> GND
+  SDA      -> A4
+  SCL      -> A5
 
 
 */
